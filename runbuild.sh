@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x
 # get the current directory
 CDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DOCKER_VERSION=`cat "$CDIR"/DOCKER_VERSION`
