@@ -2,7 +2,7 @@
 set -x
 # get the current directory
 CDIR=/home/anmccan/jenkins/data/workspace/linux_build
-DOCKER_VERSION=`cat "$CDIR"/DOCKER_VERSION`
+DOCKER_VERSION=`cat DOCKER_VERSION`
 
 OUT_DIR=$CDIR/out
 
