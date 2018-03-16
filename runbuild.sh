@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 # get the current directory
-CDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+CDIR=/home/anmccan/jenkins/data/workspace/linux_build
 DOCKER_VERSION=`cat "$CDIR"/DOCKER_VERSION`
 
 OUT_DIR=$CDIR/out
