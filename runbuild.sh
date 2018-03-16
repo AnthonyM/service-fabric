@@ -32,7 +32,7 @@ docker run \
     --rm \
     --net=host \
     --cap-add=NET_ADMIN \
-    -td \
+    -i \
     -v "$OUT_DIR":/out \
     -v "$CDIR"/deps:/deps \
     -v "$CDIR"/src:/src \
