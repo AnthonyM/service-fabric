@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 # get the current directory
-CDIR=/home/anmccan/jenkins/data/workspace/linux_build
+CDIR=/ssd/jenkins-data/workspace/linux_build
 DOCKER_VERSION=`cat DOCKER_VERSION`
 
 OUT_DIR=$CDIR/out
